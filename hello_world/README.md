@@ -11,3 +11,6 @@ generate the assembly code of C
 
 3-name
 compile an executable  C file
+
+4-puts
+C program printout

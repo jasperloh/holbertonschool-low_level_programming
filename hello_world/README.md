@@ -17,3 +17,6 @@ C program uses puts
 
 5-printf
 C program uses printf
+
+6-size.c
+C program prints the size of various types

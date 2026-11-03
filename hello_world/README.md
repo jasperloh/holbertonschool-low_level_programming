@@ -8,3 +8,6 @@ compile a C file but does not link
 
 2-assembler
 generate the assembly code of C
+
+3-name
+compile an executable  C file

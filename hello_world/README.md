@@ -13,4 +13,7 @@ generate the assembly code of C
 compile an executable  C file
 
 4-puts
-C program printout
+C program uses puts
+
+5-printf
+C program uses printf

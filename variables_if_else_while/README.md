@@ -5,3 +5,8 @@ Introduction to variables, conditional statements (if, else if, else), and loops
 ##Tasks
 0-positive_or_negative.c
 A program that generates a random number and prints whether it is positive, negative, or zero.
+
+1-last_digit.c
+Generates a random number and uses the modulo operator (%) to extract its last digit.
+
+

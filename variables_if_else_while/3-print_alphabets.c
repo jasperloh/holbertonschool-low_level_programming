@@ -10,12 +10,12 @@ int main(void)
 	int i;
 	int j;
 	/* print lowercase */
-	for(i = 97; i < 123; i++)
+	for (i = 97; i < 123; i++)
 	{
 		putchar(i);
 	}
 	/* print uppercase */
-	for(j = 65; j < 91; j++)
+	for (j = 65; j < 91; j++)
 	{
 		putchar(j);
 	}

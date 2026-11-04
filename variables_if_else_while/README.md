@@ -9,4 +9,5 @@ A program that generates a random number and prints whether it is positive, nega
 1-last_digit.c
 Generates a random number and uses the modulo operator (%) to extract its last digit.
 
-
+2-2-print_alphabet.c
+Prints the alphabet in lowercase, followed by a new line.

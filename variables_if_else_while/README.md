@@ -30,3 +30,6 @@ Prints the alphabet in lowercase, in reverse, followed by a new line.
 8-print_base16.c
 Prints all the numbers of base 16 in lowercase, followed by a new line.
 
+9-print_comb.c
+Prints all of the combinations of single-digit numbers, followed by a comma and space
+

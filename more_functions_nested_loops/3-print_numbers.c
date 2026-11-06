@@ -4,6 +4,8 @@
  * print_numbers - prints numbers from 0 to 9
  *
  * Description: Prints digits from 0 to 9 followed by a newline.
+ *
+ * Return: void
  */
 void print_numbers(void)
 {

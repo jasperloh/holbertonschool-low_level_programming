@@ -4,7 +4,7 @@
  * main - print_alphabet - Prints the lowercase alphabet
  * followed by a new line
  *
- * Description - prints letters from a to z
+ * Return void
  */
 void print_alphabet(void)
 {

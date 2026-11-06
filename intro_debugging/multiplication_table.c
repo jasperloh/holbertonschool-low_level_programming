@@ -2,11 +2,11 @@
 
 void print_table(int size)
 {
-    int row, col;
+	int row, col;
 
-    for (row = 0; row < size; row++)
-    {
-        for (col = 0; col < size; col++)
+	for (row = 1; row < size; row++)
+    	{
+        for (col = 1; col < size; col++)
         {
             printf("%d ", row * col);
         }

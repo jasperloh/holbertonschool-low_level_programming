@@ -36,10 +36,20 @@ int main (void) {
             printf("Result: %d\n", result);
             break;
         case 3:
-            printf("Multiply\n");
+            printf("A: ");
+            scanf("%d", &input_1);
+            printf("B: ");
+            scanf("%d", &input_2);
+            result = input_1 * input_2;
+            printf("Result: %d\n", result);
             break;
         case 4:
-            printf("Divide\n");
+            printf("A: ");
+            scanf("%d", &input_1);
+            printf("B: ");
+            scanf("%d", &input_2);
+            result = input_1 / input_2;
+            printf("Result: %d\n", result);
             break;
         case 0:
             printf("Bye!\n");

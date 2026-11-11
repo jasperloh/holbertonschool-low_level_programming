@@ -48,8 +48,12 @@ int main (void) {
             scanf("%d", &input_1);
             printf("B: ");
             scanf("%d", &input_2);
-            result = input_1 / input_2;
-            printf("Result: %d\n", result);
+            if (input_2 == 0) {
+                printf("Error: division by zero");
+            } else{
+                result = input_1 / input_2;
+                printf("Result: %d\n", result);
+            }
             break;
         case 0:
             printf("Bye!\n");

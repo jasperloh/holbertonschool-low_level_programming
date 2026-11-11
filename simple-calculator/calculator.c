@@ -3,6 +3,9 @@
 int main (void) {
 
     int choice;
+    int input_1;
+    int input_2;
+    int result;
 
     printf("Simple Calculator\n");
     printf("Select one of the following option\n");
@@ -17,7 +20,12 @@ int main (void) {
 
     switch (choice) {
         case 1:
-            printf("Add\n");
+            printf("A: ");
+            scanf("%d", &input_1);
+            printf("B: ");
+            scanf("%d", &input_2);
+            result = input_1 + input_2;
+            printf("Result: %d\n", result);
             break;
         case 2:
             printf("Subtract\n");

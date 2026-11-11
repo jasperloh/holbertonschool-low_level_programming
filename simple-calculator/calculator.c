@@ -28,7 +28,12 @@ int main (void) {
             printf("Result: %d\n", result);
             break;
         case 2:
-            printf("Subtract\n");
+            printf("A: ");
+            scanf("%d", &input_1);
+            printf("B: ");
+            scanf("%d", &input_2);
+            result = input_1 - input_2;
+            printf("Result: %d\n", result);
             break;
         case 3:
             printf("Multiply\n");

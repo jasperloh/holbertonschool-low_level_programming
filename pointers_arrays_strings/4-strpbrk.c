@@ -3,6 +3,8 @@
 
 /**
  * _strpbrk - Searches a string for any of a set of bytes
+ * @s: string to search
+ * @accept: string containing characters to look for
  *
  * Return: Pointer to the first matching byte, or NULL if not found
  */

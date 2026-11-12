@@ -2,6 +2,8 @@
 
 /**
  * _strcmp - Compares two strings
+ * @s1: first string to compare
+ * @s2: second string to compare
  *
  * Return: Difference between the first differing characters
  */

@@ -3,6 +3,8 @@
 
 /**
  * _strstr - Locates a substring in a string
+ * @haystack: string to search
+ * @needle: substring to find
  *
  * Return: Pointer to the first occurrence of needle, or NULL
  */

@@ -1,5 +1,5 @@
 /**
- * create an array of chars - initialized it with a specific char
+ * create_array - initialized it with a specific char
  * @c: initialized char
  * @size: the size of the memory to print
  *

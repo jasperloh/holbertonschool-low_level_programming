@@ -1,6 +1,7 @@
 /**
  * str_concat - concatenantes two strings
- * @str: string
+ * @s1: string
+ * @s2: string
  *
  * Return: array
  */

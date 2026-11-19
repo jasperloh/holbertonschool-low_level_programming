@@ -12,22 +12,22 @@
 int *array_range(int min, int max)
 {
 	int *arr;
-	unsigned int i, size;
+	size_t size, i;
 
 	if (min > max)
 		return (NULL);
 
-	size = (unsigned int)max - (unsigned int)min + 1U;
+	size = (size_t)((unsigned int)max - (unsigned int)min) + 1;
 
-	if (size == 0 || (size_t)size > SIZE_MAX / sizeof(int))
+	if (size > SIZE_MAX / sizeof(int))
 		return (NULL);
 
-	arr = malloc((size_t)size * sizeof(int));
+	arr = malloc(size * sizeof(int));
 	if (arr == NULL)
 		return (NULL);
 
 	for (i = 0; i < size; i++)
-		arr[i] = (int)((unsigned int)min + i);
+		arr[i] = (int)((unsigned int)min + (unsigned int)i);
 
 	return (arr);
 }
